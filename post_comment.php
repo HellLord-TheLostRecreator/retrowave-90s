@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <?php
 date_default_timezone_set('UTC');
 
@@ -106,3 +107,4 @@ class Persistence {
 }
 
 ?>
+</html>
