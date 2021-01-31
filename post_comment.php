@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+
 
 <div id="respond">
 
@@ -131,4 +131,3 @@ class Persistence {
 }
 
 ?>
-</html>
