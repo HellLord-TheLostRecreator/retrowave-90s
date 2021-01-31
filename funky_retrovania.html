@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h1>Leave A Comment</h1>
-
-<form action="/action_page.php">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <label for="comment">Comment:</label>
-  <input type="text" id="comment" comment="comment"<br><br>
-  <input type="submit" value="Submit">
-</form>
-
-<p>Click the "Submit" button and the form-data will be sent to a page on the 
-server called "action_page.php".</p>
-
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Funky Retrovania</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Leave A Comment</h2>
+      <form>
+        <textarea placeholder='Add Your Comment'></textarea>
+        <div class="btn">
+          <input type="submit" value="Comment">
+          <button>Cancel</button>
+        </div>
+      </form>
+    </div>
+    
+    <script src='plugin.js'></script>
+  </body>
