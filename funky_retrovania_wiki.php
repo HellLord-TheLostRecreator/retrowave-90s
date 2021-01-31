@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <body>
+<?php
 /**
  * MonoBook nouveau.
  *
@@ -728,3 +729,4 @@ class MonoBookTemplate extends BaseTemplate {
 		return $html;
 	}
 }
+<?
